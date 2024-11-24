@@ -1,0 +1,11 @@
+create table tbContato(
+	idContato int primary key auto_increment,
+    nomeContato varchar(50),
+    emailContato varchar(40),
+    assuntoContato varchar(100),
+    mensagemContato varchar(2000)    
+);
+
+insert into tbcontato values (null,'João da silva','joao@gmail.com','assunto teste do joão','msg do joão');
+
+insert into tbcontato values (null,'Maria da Silva','maria@gmail.com','assunto teste da maria','msg da maria');

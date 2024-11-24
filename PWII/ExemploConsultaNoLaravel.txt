@@ -1,0 +1,75 @@
+Arquivo .env
+	preencher apenas os campos referentes ao banco de dados
+
+DB_DATABASE=bdProjeto
+DB_USERNAME=root
+DB_PASSWORD=
+
+------------------
+No prompt no diretório do seu projeto
+
+Criar um model 
+php artisan make:model Contato
+
+Criar um controller 
+php artisan make:controller ContatoController --resource
+
+Executar novamento o servidor
+php artisan serve
+
+----------------------
+Model
+	App - ModelsC
+
+Controller
+	App - Http - Controllers
+	
+Routes
+	web.php
+
+
+------------------
+
+Código
+
+Model
+
+protected $table = 'tbContato';
+
+---------------------------------------
+
+Controller
+
+use App\Models\Contato;
+
+public function index()
+    {
+        $contato = Contato::all();      
+
+        foreach($contato as $c){
+            echo "<h1> $c->idContato </h1>";
+            echo "<p> $c->nomeContato </p>";
+            echo $c->emailContato;
+        }
+    }
+
+------------------
+Routes - web.php
+
+Route::get('/contato','App\Http\Controllers\ContatoController@index');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

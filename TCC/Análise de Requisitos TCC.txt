@@ -1,0 +1,63 @@
+Análise de Requisitos do Projeto "Anxiety"
+1. Requisitos Funcionais
+Estes requisitos descrevem as funções que o aplicativo deve realizar.
+
+Cadastro e Login de Usuário
+
+O aplicativo deve permitir que os usuários se cadastrem e façam login utilizando e-mail e senha.
+Funcionalidade de recuperação de senha.
+Tela Inicial
+
+A tela inicial deve apresentar opções de navegação para acessar as principais funcionalidades do aplicativo.
+Trilha de Progresso
+
+O aplicativo deve incluir uma trilha que mostre o progresso do usuário em relação ao conhecimento de sua condição.
+Inclusão de conteúdos educativos, quizzes e autoavaliações.
+Calendário (Diário)
+
+Um calendário interativo que mostre os dias em que o usuário registrou seu progresso e sintomas.
+Possibilidade de adicionar anotações diárias sobre emoções e eventos que influenciam a ansiedade.
+Tela de Respiração
+
+Uma tela dedicada a exercícios de respiração, com um timer configurável para auxiliar o usuário durante momentos de crise.
+Tela de Emergência
+
+Funcionalidade que permite ao usuário selecionar um contato de emergência que será acionado em caso de crise.
+Opção de envio de mensagem ou ligação diretamente para o contato selecionado.
+2. Requisitos Não Funcionais
+Esses requisitos definem as características do sistema, como desempenho, usabilidade, segurança e outros.
+
+Usabilidade
+
+O aplicativo deve ter uma interface amigável e intuitiva, facilitando a navegação para todos os usuários, incluindo aqueles com pouca familiaridade com tecnologia.
+Acessibilidade
+
+Deve ser acessível para pessoas com deficiência, garantindo que todos possam utilizar as funcionalidades do aplicativo.
+Segurança
+
+As informações do usuário devem ser armazenadas de forma segura, utilizando criptografia para proteger dados sensíveis, como senhas e informações pessoais.
+Desempenho
+
+O aplicativo deve ser leve e rápido, com tempos de carregamento mínimos, mesmo em dispositivos com hardware mais simples.
+Compatibilidade
+
+O aplicativo deve ser compatível com as principais versões de sistemas operacionais mobile, como Android e iOS.
+3. Requisitos de Dados
+Especificações sobre os dados que o aplicativo irá manipular.
+
+Dados do Usuário
+
+Nome, e-mail, senha, e informações sobre a condição de ansiedade.
+Dados de Progresso
+
+Registros diários de sintomas, atividades de respiração e progresso na trilha de aprendizado.
+Contatos de Emergência
+
+Números de telefone e nomes dos contatos de emergência escolhidos pelo usuário.
+4. Requisitos de Implementação
+Diretrizes para o desenvolvimento do aplicativo.
+
+Tecnologias Utilizadas
+Definição das linguagens de programação, frameworks e bibliotecas a serem utilizadas (ex: React Native, Flutter, etc.).
+Plataforma de Desenvolvimento
+Uso de uma plataforma de desenvolvimento adequada para criar um aplicativo multiplataforma.

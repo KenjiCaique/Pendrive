@@ -1,0 +1,57 @@
+(Ao ligar o PC)
+
+Antes de tudo instalar o composer
+----------------------------------------
+Abrir o prompt de comando
+
+1 - cd\
+2 - mkdir laravel
+3 - cd laravel
+4 - composer create-project laravel/laravel aprendendo-laravel "9.4.*"
+5 - cd aprendendo-laravel
+6 - code .
+7 - php artisan serve
+8 - abrir o navegador e na url digitar: localhost:8000
+
+-----------------------------------------
+
+Para criar páginas (views):
+
+Resources - Views 
+nomeDoArquivo.blade.php
+
+------------------------------------------
+
+Para criar uma rota
+
+Routes - arquivo web.php
+
+------------------------------------------
+
+Para criar o controller
+
+No prompt parar de executar o servidor (ctrl+c)
+Digitar:
+	php artisan make:controller ContatoController --resource
+
+Onde ficam os controllers criados?
+App - Http - Controllers - SeuController
+
+
+ public function index()
+    {
+        echo "Testando 123";
+    }
+
+
+Route::get('/mensagem','App\Http\Controllers\ContatoController@index');
+
+
+
+
+
+
+
+
+
+

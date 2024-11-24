@@ -1,0 +1,115 @@
+/* Estilização geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0d8c3; /* Bege mais escuro */
+    line-height: 1.6;
+    color: #3c3c3c;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+form {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 550px; /* Formulário mais largo */
+    border: 1px solid #ccc2ab; /* Tom de bege escuro */
+}
+
+form div {
+    margin-bottom: 18px;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #b3a89a; /* Tom de bege escuro */
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #f5f2ec;
+    transition: border-color 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #8a7f6d;
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #7e7e7e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #5f5f5f;
+}
+
+/* Exibição dos produtos */
+body p {
+    font-size: 15px;
+    color: #3c3c3c;
+    padding: 12px;
+    background-color: #fff;
+    margin: 12px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc2ab;
+}
+
+body p:nth-child(even) {
+    background-color: #e6e0d2; /* Bege escuro alternado */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    form {
+        width: 90%;
+    }
+
+    input[type="text"],
+    input[type="submit"] {
+        font-size: 14px;
+    }
+
+    body p {
+        font-size: 14px;
+    }
+}
+
+/* Acessibilidade e Foco */
+input[type="submit"]:focus {
+    outline: 2px solid #7e7e7e;
+    background-color: #5f5f5f;
+    outline-offset: 2px;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #7e7e7e;
+}
